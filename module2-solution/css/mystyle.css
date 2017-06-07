@@ -87,4 +87,8 @@ p.content {
         float: left;
         width: 100%;
     }
+    #title3 {
+        background-color: yellow;
+        width: 16.5%;
+    }
 }
