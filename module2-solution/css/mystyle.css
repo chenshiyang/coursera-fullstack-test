@@ -1,0 +1,90 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    padding-right: 25px;
+}
+
+section {
+    position: relative;
+}
+
+#section3 {
+
+}
+
+div.item {
+    position: relative;
+    border: black solid 1px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    background-color: gainsboro;
+}
+
+div.title {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 33%;
+    font-family: Helvetica, arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    float: right;
+    height: 20%;
+    margin-bottom: 2%;
+}
+
+#title1 {
+    background-color: hotpink;
+}
+
+#title2 {
+    background-color: crimson;
+}
+
+#title3 {
+    background-color: yellow;
+}
+
+p.content {
+    clear: both;
+    padding: 10px;
+    height: 78%;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+
+    #section3 {
+        float: left;
+        width: 100%;
+    }
+}
