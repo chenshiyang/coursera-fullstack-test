@@ -64,8 +64,7 @@ p.content {
     padding: 10px;
     height: 78%;
     overflow: hidden;
-    word-break: keep-all;
-    word-wrap: break-word;
+    text-align: justify;
 }
 
 /********** Large devices only **********/
